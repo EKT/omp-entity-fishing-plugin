@@ -38,16 +38,16 @@ This is a deliverable of the <a target="_blank" href="http://hirmeos.eu">**HIRME
 
 	Tag cloud support in the landing page of a monograph that helps user identify easily the subjects the specific monograph deals with.
 	
-##Installation Guide
+## Installation Guide
 
-###Prerequisites
+### Prerequisites
 
 1) PHP Multibyte String: http://php.net/manual/en/book.mbstring.php
 2) PHP Apache Solr: http://php.net/manual/en/book.solr.php
 3) Apache Solr: http://lucene.apache.org/solr/
 4) [**Optional**] Nerd: https://github.com/kermitt2/entity-fishing (You can install your own NERD instance or you can use the public one here: http://nerd.huma-num.fr/nerd/)
 
-###Installation
+### Installation
 
 1) Download the plugin files from this repository
 
