@@ -1,0 +1,9 @@
+{
+	"require": {
+		"lotsofcode/tag-cloud" : "*",
+	  	"hirmeos/entity-fishing-php-wrapper" : "*"
+	},
+
+  	"minimum-stability": "dev",
+  	"prefer-stable": true
+}

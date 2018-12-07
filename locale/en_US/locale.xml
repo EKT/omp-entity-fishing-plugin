@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/entityFishing/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2018 Hirmeos EU Project (http://hirmeos.eu/)
+  * Copyright (c) 2018 National Documentation Center (http://www.ekt.gr/)
+  * Copyright (c) 2018 Kostas Stamatis
+  *
+  * This is a deliverable of the HIRMEOS project. The project has received funding from the European Union’s
+  * Horizon 2020 research and innovation programme under grant agreement No 731102.
+  *
+  * Distributed under CC-BY-NC-SA. For full terms see: http://creativecommons.org/licenses/by-nc-sa/4.0/.
+  *
+  * Localization strings for this plugin.
+  *
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+
+	<!-- Plugin settings -->
+	<message key="plugins.generic.entityFishing.settings.displayName">Entity Fishing</message>
+	<message key="plugins.generic.entityFishing.settings.description">This plugin provides the entity fishing support via the nerd API.</message>
+	<message key="plugins.generic.entityFishing.settings.tab.title">Settings</message>
+
+	<!-- Plugin Admin settings -->
+	<message key="plugins.generic.entityFishing.settings.nerd">Nerd API</message>
+	<message key="plugins.generic.entityFishing.settings.form.nerdurl">Nerd API URL endpoint</message>
+	<message key="plugins.generic.entityFishing.settings.solr">Solr</message>
+	<message key="plugins.generic.entityFishing.settings.form.solrurl">Solr host</message>
+	<message key="plugins.generic.entityFishing.settings.form.solrport">Solr port</message>
+	<message key="plugins.generic.entityFishing.settings.form.solrpath">Solr path</message>
+
+	<!-- Plugin Context settings -->
+	<message key="plugins.generic.entityFishing.settings.context.title">Settings regarding the Entity Fishing appearance</message>
+	<message key="plugins.generic.entityFishing.settings.context.tagcloud.enabled">Enable/Disable TagCloud</message>
+	<message key="plugins.generic.entityFishing.settings.context.abstract.enabled">Enable/Disable Abstract entities</message>
+	<message key="plugins.generic.entityFishing.settings.context.landingpage.enabled">Enable/Disable entities display in monographs landing page</message>
+
+	<!-- Sidebar block -->
+	<message key="plugins.generic.entityFishing.sidebar.title">Entity Fishing</message>
+	<message key="plugins.generic.entityFishing.sidebar.tagcloud">Tagcloud</message>
+
+	<!-- Search results -->
+	<message key="plugins.generic.entityFishing.tagcloud.foundTitleSearch"><![CDATA[One title was found which matched your search for <span class="entity">{$searchQuery}</span>]]></message>
+	<message key="plugins.generic.entityFishing.tagcloud.foundTitlesSearch"><![CDATA[{$number} titles were found which matched your search for <span class="entity">{$searchQuery}</span>]]></message>
+
+	<!-- Breadcrumbs -->
+	<message key="plugins.generic.entityFishing.breadcrumb.tagcloud">Entity-Fishing Tagcloud</message>
+	<message key="plugins.generic.entityFishing.breadcrumb.tagcloud.browseby">Browse by entity:</message>
+
+	<!-- General -->
+	<message key="plugins.generic.entityFishing.error.generic">An error occured! Please, check Entity Fishing plugin settings</message>
+
+	<!-- Admin / Manager for publication formats -->
+	<message key="plugins.generic.entityFishing.publicationformats.title">Publication Formats for Entity Fishing</message>
+	<message key="plugins.generic.entityFishing.publicationformats.status.title">Status</message>
+	<message key="plugins.generic.entityFishing.publicationformats.status.indexed">Remove from index</message>
+	<message key="plugins.generic.entityFishing.publicationformats.status.nonindexed">Add to index</message>
+	<message key="plugins.generic.entityFishing.publicationformats.dialog.indexed">Are you sure you want to remove the entities of this file from the index?</message>
+	<message key="plugins.generic.entityFishing.publicationformats.dialog.nonindexed">Are you sure you want to add the entities of this file to the index?</message>
+
+
+</locale>

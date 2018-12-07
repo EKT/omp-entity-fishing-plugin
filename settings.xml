@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin_settings SYSTEM "../../../lib/pkp/dtd/pluginSettings.dtd">
+
+<!--
+  * plugins/generic/entityFishing/settings.xml
+  *
+  * Copyright (c) 2018 Hirmeos EU Project (http://hirmeos.eu/)
+  * Copyright (c) 2018 National Documentation Center (http://www.ekt.gr/)
+  * Copyright (c) 2018 Kostas Stamatis
+  *
+  * This is a deliverable of the HIRMEOS project. The project has received funding from the European Union’s
+  * Horizon 2020 research and innovation programme under grant agreement No 731102.
+  *
+  * Distributed under CC-BY-NC-SA. For full terms see: http://creativecommons.org/licenses/by-nc-sa/4.0/.
+  *
+  * Default plugin settings.
+  *
+  -->
+
+<plugin_settings>
+	<setting type="bool">
+		<name>enabled</name>
+		<value>false</value>
+	</setting>
+	<setting type="string">
+		<name>entityFishingNerdUrl</name>
+		<value>http://nerd.huma-num.fr/nerd/service</value>
+	</setting>
+</plugin_settings>
