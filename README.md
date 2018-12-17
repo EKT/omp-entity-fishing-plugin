@@ -78,5 +78,5 @@ After these steps, you will be able to use the plugin!
 OMP 3.1 and newer
 
 ## License
-Distributed under CC-BY-NC-SA. For full terms see: http://creativecommons.org/licenses/by-nc-sa/4.0/.
+Distributed under the GNU GPLv3. For full terms see: https://www.gnu.org/licenses/gpl-3.0.en.html
 

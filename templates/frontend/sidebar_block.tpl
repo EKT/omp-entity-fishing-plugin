@@ -8,7 +8,7 @@
  * This is a deliverable of the HIRMEOS project. The project has received funding from the European Union’s
  * Horizon 2020 research and innovation programme under grant agreement No 731102.
  *
- * Distributed under CC-BY-NC-SA. For full terms see: http://creativecommons.org/licenses/by-nc-sa/4.0/.
+ * Distributed under the GNU GPLv3. For full terms see: https://www.gnu.org/licenses/gpl-3.0.en.html
  *
  * The sidebar block in the public frontend regarding the entity fishing plugin.
  *}
